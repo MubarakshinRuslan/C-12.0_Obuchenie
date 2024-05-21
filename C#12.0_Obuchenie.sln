@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34309.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C#12.0_Obuchenie", "C#12.0_Obuchenie\C#12.0_Obuchenie.csproj", "{6A25CC15-A18A-455F-BF17-3ED54A808570}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab1", "C#12.0_Obuchenie\Lab1.csproj", "{6A25CC15-A18A-455F-BF17-3ED54A808570}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
