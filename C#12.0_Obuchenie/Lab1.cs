@@ -12,20 +12,20 @@
         }
         struct Fdata
         {
-            public int x0, y0;
-            public int color;
-            public Figures type;
+            public int X, Y;
+            public int Color;
+            public Figures Type;
         }
 
         public static void Main(string[] args)
         {
             Fdata fd;
-            fd.x0 = 1;
-            fd.y0 = 1;
-            fd.type = Figures.Romb;
+            fd.X = 10;
+            fd.Y = -5;
+            fd.Type = Figures.Romb;
 
             Console.WriteLine("Fdata fd:");
-            Console.Write($"fd.x0 = {fd.x0}\nfd.y0 = {fd.y0}\nfd.type = {fd.type}");
+            Console.Write($"fd position is ({fd.X},{fd.Y})\nfd.type = {fd.Type}");
         }
     }
 }
