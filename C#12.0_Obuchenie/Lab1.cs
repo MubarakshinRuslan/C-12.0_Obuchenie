@@ -1,22 +1,22 @@
 ﻿namespace Module2
 {
+    enum Figures
+    {
+        Romb = 1,
+        Circle,
+        Rect,
+        Square,
+        Triangle
+    }
+    struct Fdata
+    {
+        public int X, Y;
+        public int Color;
+        public Figures Type;
+    }
+
     class Lab1
     {
-        enum Figures
-        {
-            Romb = 1,
-            Circle,
-            Rect,
-            Square,
-            Triangle
-        }
-        struct Fdata
-        {
-            public int X, Y;
-            public int Color;
-            public Figures Type;
-        }
-
         public static void Main(string[] args)
         {
             Fdata fd;
