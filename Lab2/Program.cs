@@ -6,13 +6,10 @@ namespace Module3
     {
         static void Main(string[] args)
         {
-            for(int i = 0; i < 1000; i++)
-            {
-                Crows crows = new Crows(i);
-                //Console.WriteLine(crows.ExGetCount());\
-                Console.WriteLine(crows.GetCount());
-            }
-
+            Console.Write("Введите число ворон на ветке: ");
+            int n = int.Parse(Console.ReadLine());
+            var crows = new Crows(n);
+            Console.WriteLine(crows.GetCount());
         }
     }
 }
