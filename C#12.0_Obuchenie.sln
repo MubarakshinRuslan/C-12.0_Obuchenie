@@ -21,6 +21,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Module10", "Module10\Module
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lab10", "..\..\..\..\Desktop\Обучение C#\C# 12.0\Labs\Labs\mod10\Lab10\Lab10.csproj", "{228D1861-9B83-410E-BC9A-53A95A6BA6C9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometryGit", "GeometryGit\GeometryGit.csproj", "{FE8D3B12-1C6D-408C-B509-31CBA99A660C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{228D1861-9B83-410E-BC9A-53A95A6BA6C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{228D1861-9B83-410E-BC9A-53A95A6BA6C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{228D1861-9B83-410E-BC9A-53A95A6BA6C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE8D3B12-1C6D-408C-B509-31CBA99A660C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE8D3B12-1C6D-408C-B509-31CBA99A660C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE8D3B12-1C6D-408C-B509-31CBA99A660C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE8D3B12-1C6D-408C-B509-31CBA99A660C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
